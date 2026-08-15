@@ -1,1 +1,8 @@
-
+<script>
+    // Генерируем 8 случайных цифр
+    let binary = "";
+    for(let i=0; i<8; i++) binary += Math.floor(Math.random()*2);
+    
+    // Очищаем страницу от всего кода скрипта и выводим только цифры
+    document.write(binary);
+</script>
